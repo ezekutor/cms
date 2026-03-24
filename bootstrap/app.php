@@ -42,6 +42,7 @@ use Flute\Core\Modules\Icons\Providers\IconServiceProvider;
 use Flute\Core\Modules\Notifications\Providers\NotificationServiceProvider;
 use Flute\Core\Modules\Profile\Providers\ProfileServiceProvider;
 use Flute\Core\Modules\Search\Providers\SearchServiceProvider;
+use Flute\Core\Modules\Skinchanger\Providers\SkinchangerServiceProvider;
 use Flute\Core\Modules\Tips\Providers\TipsServiceProvider;
 use Flute\Core\Modules\Translation\Providers\TranslationServiceProvider;
 use Flute\Core\ServiceProviders\BreadcrumbServiceProvider;
@@ -135,6 +136,7 @@ $app->serviceProvider(FileSystemServiceProvider::class)
     ->serviceProvider(PageServiceProvider::class)
     ->serviceProvider(TipsServiceProvider::class)
     ->serviceProvider(SearchServiceProvider::class)
+    ->serviceProvider(SkinchangerServiceProvider::class)
     ->serviceProvider(HomeServiceProvider::class)
     ->serviceProvider(AdminServiceProvider::class)
     ->serviceProvider(IconServiceProvider::class);
