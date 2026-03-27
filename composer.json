@@ -96,6 +96,8 @@
 			"Hybridauth\\Provider\\": "app/Core/Modules/Auth/Hybrid/"
 		},
 		"exclude-from-classmap": [
+			"app/Modules/*/Omnipay/",
+			"app/Modules/*/database/Migrations/",
 			"vendor/hybridauth/hybridauth/src/Provider/Discord.php",
 			"vendor/hybridauth/hybridauth/src/Provider/Telegram.php"
 		]
